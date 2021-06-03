@@ -1,27 +1,16 @@
-#include "bits/stdc++.h"
- 
 using namespace std;
-
-#define all(x)   (x).begin(), (x).end()
-#define test     int t;cin>>t;while(t--)
-// #define IO(NAME) ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(0); if(fopen(NAME ".in", "r")) freopen(NAME ".in", "r", stdin),freopen(NAME ".in", "w", stdout); 
-#define len(x)   (int)(x).size()
-#define elif     else if
-#define bignum   1e9+1
-
-//----------------Prototypes------------------
+#include "bits/stdc++.h"
+#define elif else if
+#define all(Z) (Z).begin(), (Z).end()
+#define len(x) (int)(x).size()
+#define ceil(x,y) (x + y-1)/y
 void IO(string Bessie);
 
-//-----------------Globals--------------------
-
-//-------------------x-x----------------------
-
-int main(){
-	IO("");//Question IO file name Here 
+int32_t main() {
+    IO("");
 	
-	
-	
-	return 0;
+    
+    cerr << "\nTime Elapsed: [" << 1e3*clock()/CLOCKS_PER_SEC << " ms]\n";
 }
 
 void IO(string Bessie = "") { 
@@ -31,3 +20,7 @@ void IO(string Bessie = "") {
         freopen((Bessie+".out").c_str(), "w", stdout);
      }
 }
+/*
+6/3/2021 -> present
+*/
+// taskkill /IM "USACO Template.exe" /F
